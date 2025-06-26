@@ -1,0 +1,48 @@
+@keyframes aparecerAlerta {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+       
+    }
+    to {
+        /* opacity: 1; */
+    };
+}
+.sobreApp{
+    /* padding-top: 50px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: aparecerAlerta;
+    animation-duration: 0.3s;
+}
+.sobreApp>.janelaInformativa{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+.janelaInformativa>h2{
+    font-size: 10pt;
+    background: #725CAD;
+    border-radius: 20px;
+    padding: 4px 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+.janelaInformativa>p{
+    text-align: center;
+    font-size: 10pt;
+    width: 50%;
+}
+.janelaInformativa>h3{
+    font-size: 10pt;
+    margin: 20px 0px;
+    opacity: 0.6;
+}
